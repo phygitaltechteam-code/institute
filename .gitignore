@@ -1,0 +1,22 @@
+# Dependencies & builds
+node_modules/
+dist/
+
+# Environment files (use .env.example instead)
+.env
+.env.*
+!.env.example
+
+# Local backups / archives
+_backup/
+_git-backup/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Tool caches / scratch
+.tanstack/
+.claude/

@@ -1,0 +1,16 @@
+export {default as courseController} from './course.controller';
+export {default as batchController} from './batch.controller';
+export {default as placementController} from './placement.controller';
+export {default as expenditureController} from './expenditure.controller';
+export {default as dailyTaskController} from './dailyTask.controller';
+export {default as examController} from './exam.controller';
+export {default as examQuestionController} from './examQuestion.controller';
+export {default as leadController} from './lead.controller';
+export {default as studentController} from './student.controller';
+export {default as teacherController} from './teacher.controller';
+export {default as accountController} from './account.controller';
+export {default as assignmentController} from './assignment.controller';
+export {default as feeController} from './fee.controller';
+export {default as attendanceController} from './attendance.controller';
+export {default as subjectController} from './subject.controller';
+export {default as dashboardController} from './dashboard.controller';

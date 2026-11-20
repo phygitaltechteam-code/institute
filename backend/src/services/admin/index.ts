@@ -1,0 +1,15 @@
+export {default as courseService} from './course.service';
+export {default as batchService} from './batch.service';
+export {default as placementService} from './placement.service';
+export {default as expenditureService} from './expenditure.service';
+export {default as dailyTaskService} from './dailyTask.service';
+export {default as examService} from './exam.service';
+export {default as leadService} from './lead.service';
+export {default as studentService} from './student.service';
+export {default as teacherService} from './teacher.service';
+export {default as accountService} from './account.service';
+export {default as assignmentService} from './assignment.service';
+export {default as feeService} from './fee.service';
+export {default as attendanceService} from './attendance.service';
+export {default as subjectService} from './subject.service';
+export {default as dashboardService} from './dashboard.service';

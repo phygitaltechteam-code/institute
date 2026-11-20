@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Batch" ALTER COLUMN "endTime" DROP DEFAULT,
+ALTER COLUMN "startTime" DROP DEFAULT;

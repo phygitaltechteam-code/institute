@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Batch" ADD COLUMN     "endTime" TEXT NOT NULL DEFAULT '00:00',
+ADD COLUMN     "startTime" TEXT NOT NULL DEFAULT '00:00';

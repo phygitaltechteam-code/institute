@@ -1,0 +1,42 @@
+import {Router} from 'express';
+import studentLookupRoutes from '../studentLookup.routes';
+import paymentLinkRoutes from '../paymentLink.routes';
+import {checkAdmin, verifyJWT} from '@middlewares/index';
+import teacherRoutes from './teacher.routes';
+import courseRoutes from './course.routes';
+import batchRoutes from './batch.routes';
+import placementRoutes from './placement.routes';
+import expenditureRoutes from './expenditure.routes';
+import examRoutes from './exam.routes';
+import leadRoutes from './lead.routes';
+import studentRoutes from './student.routes';
+import interviewRoutes from './interview.routes';
+import accountRoutes from './account.routes';
+import feeRoutes from './fee.routes';
+import attendanceRoutes from './attendance.routes';
+import subjectRoutes from './subject.routes';
+import dashboardRoutes from './dashboard.routes';
+import academyRoutes from './academy.routes';
+
+const router = Router();
+router.use(verifyJWT, checkAdmin);
+router.use('/lookup', studentLookupRoutes);
+router.use('/payment-links', paymentLinkRoutes);
+
+router.use('/teachers', teacherRoutes);
+router.use('/courses', courseRoutes);
+router.use('/batches', batchRoutes);
+router.use('/placements', placementRoutes);
+router.use('/expenditures', expenditureRoutes);
+router.use('/exams', examRoutes);
+router.use('/leads', leadRoutes);
+router.use('/students', studentRoutes);
+router.use('/interviews', interviewRoutes);
+router.use('/accounts', accountRoutes);
+router.use('/fees', feeRoutes);
+router.use('/attendance', attendanceRoutes);
+router.use('/subjects', subjectRoutes);
+router.use('/dashboard', dashboardRoutes);
+router.use('/academy', academyRoutes);
+
+export default router;

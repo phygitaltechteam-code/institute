@@ -1,0 +1,67 @@
+.certificate-container {
+  position: relative;
+  width: 800px; /* Adjust based on your image aspect ratio */
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.certificate-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Positions the student name over the top underline */
+.student-name {
+  position: absolute;
+  top: 52%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1a202c;
+}
+
+/* Positions the paragraph text */
+.certificate-text {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #4a5568;
+}
+
+.certificate-text strong {
+  color: #1a202c;
+  font-weight: 700;
+}
+
+/* Positions the date over the bottom left underline */
+.certificate-date {
+  position: absolute;
+  top: 76%;
+  left: 32.5%;
+  transform: translate(-50%, -50%);
+}
+
+.date-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
